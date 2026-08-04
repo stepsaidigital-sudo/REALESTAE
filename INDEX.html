@@ -1044,7 +1044,8 @@
         </div>
     </footer>
 
-    <div class="fixed bottom-5 left-5 z-40 flex flex-col items-end gap-2.5">
+    <!-- CHANGED: bottom-5 replaced with bottom-28 to avoid overlap with Chat Widget -->
+    <div class="fixed bottom-28 right-5 z-40 flex flex-col items-end gap-2.5">
         <button onclick="openWhatsAppChat()" class="bg-emerald-500 hover:bg-emerald-600 text-white w-12 h-12 rounded-full shadow-2xl flex items-center justify-center text-xl hover:scale-105 transition-transform group relative">
             <i class="fa-brands fa-whatsapp"></i>
             <span class="absolute right-14 bg-slate-900 text-white text-xs font-bold px-2.5 py-1 rounded-lg whitespace-nowrap shadow-lg hidden group-hover:block">
@@ -1309,7 +1310,7 @@
                                 <span class="bg-slate-950/90 text-white text-[10px] font-bold px-2 py-0.5 rounded-full backdrop-blur border border-white/20">
                                     <i class="fa-solid fa-shield-check text-emerald-400 mr-0.5"></i> ${p.rera}
                                 </span>
-                                <span class="bg-amber-500 text-slate-950 text-[9px] font-extrabold px-2 py-0.2 rounded-full uppercase tracking-wider shadow">
+                                <span class="bg-amber-50 text-slate-950 text-[9px] font-extrabold px-2 py-0.2 rounded-full uppercase tracking-wider shadow">
                                     ${p.type === 'plot' ? 'Open Plot Layout' : 'Luxury Flat'}
                                 </span>
                             </div>
@@ -1645,7 +1646,7 @@
         }
     </script>
 
-    
+     
      <!-- Add this script before the closing </body> tag -->
  <script
    src="https://widget.stepsai.ca/widget.js"
